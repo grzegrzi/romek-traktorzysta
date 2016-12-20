@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h>//sam jestes huju
+#include <math.h>//sam jestes huju (ej dobra teraz korzystasz z sqrt więc no)
 #include <cstdlib>
 
 using namespace std;
