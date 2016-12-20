@@ -1,20 +1,58 @@
 #include <iostream>
-#include <math.h>//useless
+#include <math.h>//sam jestes huju
+#include <cstdlib>
 
 using namespace std;
 
 int main()
 {
     int a,b,c,del;
-    cout << "ale rozjebalem" << endl;
+    float x1,x2;
+
+    cout << "romus rozjebal jak twoj stary twoja stara" << endl;
     cout << "Podaj a" << endl;
     cin>>a;
     cout << "Podaj b" << endl;
     cin>>b;
     cout << "Podaj c" << endl;
+
     cin>>c;
-    del = b*b-4*a*c;
+     system ("cls");
+    if (a<100& b<100 & c<100)
+        {
+        del = b*b-4*a*c;
     cout <<"delta to "<<del<<endl;
+    }
+    else
+    {
+        cout<<"podales chujowe liczby galganie"<<endl;
+    }
+        x2 = (-b+sqrt(del))/(2*a);
+        x1 = (-b-sqrt(del))/(2*a);
+    if (del>0)
+    {
+        cout<< "x1 to:    "<<x1<<endl;
+    cout << "x2 to:     "<<x2<<endl;
+       }
+
+
+
+
+
     return 0;
 }
-//ŁADNE - MIFCIO I KAPI
+//romek dokonczy to w domu
+
+
+
+
+
+
+
+
+
+
+
+
+
+//oli wcale nie pomagal
