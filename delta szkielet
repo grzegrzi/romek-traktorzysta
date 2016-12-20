@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,del;
+    cout << "ale rozjebalem" << endl;
+    cout << "Podaj a" << endl;
+    cin>>a;
+    cout << "Podaj b" << endl;
+    cin>>b;
+    cout << "Podaj c" << endl;
+    cin>>c;
+    del = b*b-4*a*c;
+    cout <<"delta to "<<del<<endl;
+    return 0;
+}
