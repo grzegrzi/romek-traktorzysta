@@ -1,0 +1,156 @@
+#include <iostream>
+#include <conio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+using namespace std;
+
+string odp[6];
+int i=0, proc;
+int main()
+{
+    cout << "siema. zaraz sprawdzimy jak mnie znasz :D" << endl;
+
+
+
+    getch();
+    system("cls");
+
+    while ((odp[0]!="a")&&(odp[0]!="b"))
+    {cout << "Gdzie Roman woli pojechac:"<<endl;
+    cout<<"a Woodstock"<<endl;
+    cout<<"b Red hot chili peppers"<<endl;
+    cin>>odp[0];
+
+    if ((odp[0]!="a")&&(odp[0]!="b"))
+      system("cls");
+
+    cout<< "zla odpowiedz kolego"<<endl;
+     if (odp[0]=="b")
+{
+    i = i + 1;
+}
+    }
+
+   if ((odp[0]=="a")||(odp[0]=="b"))
+
+   system("cls");
+
+   while ((odp[1]!="a")&&(odp[1]!="b")&&(odp[1]!="c"))
+    {cout << "Brunetki czy blondynki:"<<endl;
+    cout<<"a blondynki"<<endl;
+    cout<<"b brunetki"<<endl;
+    cout<<"c obojetnie"<<endl;
+    cin>>odp[1];
+
+    if ((odp[1]!="a")&&(odp[1]!="b")&&(odp[1]!="c"))
+      system("cls");
+
+    cout<< "nie ma takiej odpowiedzi"<<endl;
+    if (odp[1]=="c")
+{
+    i = i + 1;
+}
+    }
+
+     if ((odp[1]=="a")||(odp[1]=="b")||(odp[1]=="c"))
+        system("cls");
+         while ((odp[2]!="a")&&(odp[2]!="b")&&(odp[2]!="c"))
+    {cout << "Jakie psy woli Roman:"<<endl;
+    cout<<"a male"<<endl;
+    cout<<"b duze"<<endl;
+    cout<<"c nie lubi psow"<<endl;
+    cin>>odp[2];
+
+    if ((odp[2]!="a")&&(odp[2]!="b")&&(odp[2]!="c"))
+      system("cls");
+
+    cout<< "masz tyko odpowiedzi a b c debilu"<<endl;
+
+    if (odp[2]=="b")
+{
+    i = i + 1;
+}
+    }
+
+
+ if ((odp[2]=="a")||(odp[2]=="b")||(odp[2]=="c"))
+         system("cls");
+         while ((odp[3]!="a")&&(odp[3]!="b")&&(odp[3]!="c"))
+    {cout << "Kim chce zostac w przyszlosci:"<<endl;
+    cout<<"a kloszard"<<endl;
+    cout<<"b programista filantrop"<<endl;
+    cout<<"c hodowca zyraf"<<endl;
+    cin>>odp[3];
+
+    if ((odp[3]!="a")&&(odp[3]!="b")&&(odp[3]!="c"))
+      system("cls");
+
+    cout<< "masz tyko odpowiedzi a b c debilu"<<endl;
+
+
+    if (odp[3]=="b")
+{
+    i = i + 1;
+}
+    }
+
+  if ((odp[3]=="a")||(odp[3]=="b")||(odp[3]=="c"))
+  system("cls");
+ while ((odp[4]!="a")&&(odp[4]!="b"))
+    {cout << "Palenie:"<<endl;
+    cout<<"a Blancik"<<endl;
+    cout<<"b Lufka"<<endl;
+    cin>>odp[4];
+
+    if ((odp[4]!="a")&&(odp[4]!="b"))
+      system("cls");
+
+    cout<< "jeszcze sie nie nauczyles odpowiadac wtf"<<endl;
+
+    if (odp[4]=="a")
+{
+    i = i + 1;
+}
+
+    }
+
+   if ((odp[4]=="a")||(odp[4]=="b"))
+    system("cls");
+while ((odp[5]!="a")&&(odp[5]!="b")&&(odp[5]!="c"))
+    {cout << "Czy Roman uprawia sport:"<<endl;
+    cout<<"a tak"<<endl;
+    cout<<"b nie"<<endl;
+    cout<<"c pol na pol"<<endl;
+    cin>>odp[5];
+
+    if ((odp[5]!="a")&&(odp[5]!="b")&&(odp[5]!="c"))
+      system("cls");
+
+    cout<< "nie ma takiej odpowiedzi"<<endl;
+    if (odp[5]=="c")
+{
+    i = i + 1;
+}
+    }
+    if ((odp[5]=="a")||(odp[5]=="b")||(odp[5]=="c"))
+
+   system("cls");
+
+
+  cout<<"dobra to tylko 6 pytan"<<endl;
+   getch();
+
+   cout<<"ale pewnie jestes ciekawy"<<endl;
+   getch();
+system("cls");
+
+proc=(i*100/6);
+cout<<"udalo ci sie zdobyc "<<i<<"pkt"<<" na 6, co daje ci "<<proc<<" procent"<<endl;
+getch();
+
+
+
+
+    return 0;
+}
