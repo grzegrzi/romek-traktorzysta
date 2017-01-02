@@ -1,0 +1,62 @@
+#include <iostream>
+#include <cstdlib>
+#include <time.h>
+#include <stdio.h>
+#include <windows.h>
+
+using namespace std;
+string kolor[4];
+
+
+int plec, i, wiek, radio;
+int main()
+{
+    srand(time(NULL));
+   i = rand()%3+1;
+   wiek = rand()%10+1;
+    kolor[1]="bialy";
+    kolor[3]="czarny";
+    kolor[2]="szary";
+    cout << "Losowanie krolika" << endl;
+   Sleep(2000);
+   system("cls");
+  radio = rand()%50+1;
+  if (radio==34)
+{
+ cout<<"no to masz pecha i trafiles na radioaktywnego"<<endl;
+}
+  else
+    {
+    cout<<"Twoj krolik:"<<endl;
+    Sleep(1000);
+    cout<<"* jest "<<kolor[i]<<endl;
+    Sleep(1000);
+    cout <<"* ilosc wiosen "<<wiek<<endl;
+    plec = rand()%2+1;
+    if (plec<2)
+    {   Sleep(1000);
+        cout<<"* chlopiec"<<endl;
+        Sleep(1000);}
+    if (plec>1)
+    {   Sleep(1000);
+        cout<<"* dziewczynka"<<endl;
+        Sleep(1000);
+        }
+    cout<<" ___"<<endl;
+    Sleep(500);
+     cout<<"( | )"<<endl;
+    Sleep(500);
+     cout<<"|   |"<<endl;
+    Sleep(500);
+      cout<<"|   |"<<endl;
+    Sleep(500);
+     cout<<"|   |"<<endl;
+    Sleep(500);
+    cout<<"|   |"<<endl;
+    Sleep(500);
+    cout<<"(_|_)"<<endl;
+  }
+   //przepraszam za jakosc
+   
+   return 0;
+}
