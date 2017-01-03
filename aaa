@@ -1,0 +1,60 @@
+
+#include <iostream>
+
+#include <cstdlib>
+#include <time.h>
+#include <stdio.h>
+#include <windows.h>
+#include <conio.h>
+using namespace std;
+char wybor;
+int a,b,h,x;
+
+
+
+
+int main()
+{
+   for(;;)
+   {cout<< "_______MENU_______"<<endl;
+    cout<< "|JAKIE CHCESZ POLE|"<<endl;
+    cout<< "|   1-Prostokat   |"<<endl;
+    cout<< "|   2-Kwadrat     |"<<endl;
+    cout<< "|   3-Trojkat     |"<<endl;
+    cout<< "|   4-WYJSCIE     |"<<endl;
+    cout<< "|_________________|"<<endl;
+   wybor=getch();
+   if (wybor=='1')
+   {
+       cout<<"PODAJ A"<<endl;
+       cin>>a;
+       cout<<"PODAJ B"<<endl;
+       cin>>b;
+       x=a*b;
+       cout<<"Wynik:  "<<x<<endl;
+   getchar();
+   }
+   if (wybor=='2')
+   {
+       cout<<"PODAJ A"<<endl;
+       cin>>a;
+
+   }
+   if (wybor=='3')
+   {
+       cout<<"PODAJ A"<<endl;
+       cin>>a;
+       cout<<"PODAJ WYSOKOSC"<<endl;
+       cin>>h;
+   }
+ if (wybor=='4')
+   {
+       system("exit");
+   }
+   getchar();
+system("cls");
+   }
+return 0;
+
+
+}
