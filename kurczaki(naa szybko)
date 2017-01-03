@@ -69,3 +69,10 @@ int main()
 
    return 0;
 }
+/*
+komentarz od elvisa
+wszystko w pętli main
+nie ma wcięć ani nic
+czytelność kodu bliska zeru
+niepotrzebny komentarz ukazujący słabość programisty
+*/
